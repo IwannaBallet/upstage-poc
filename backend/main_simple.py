@@ -1,9 +1,15 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import io
 from datetime import datetime
 from typing import List
+import sys
+from pathlib import Path
+
+# Add backend directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
+from solar_client import analyze_failure
 
 app = FastAPI(title="Solar LLM PoC API")
 
@@ -55,6 +61,28 @@ def get_dashboard_data():
         return {"data": []}
     
     return {"data": data_storage}
+
+@app.post("/analyze/{equipment_id}")
+def analyze_equipment(equipment_id: str):
+    """Analyze equipment using Solar LLM"""
+    # Find latest record for this equipment
+    equipment_records = [r for r in data_storage if r.get('equipment_id') == equipment_id]
+    
+    if not equipment_records:
+        raise HTTPException(status_code=404, detail=f"Equipment {equipment_id} not found")
+    
+    # Get the most recent record
+    latest_record = max(equipment_records, key=lambda x: x.get('timestamp', ''))
+    
+    # Call Solar LLM
+    analysis = analyze_failure(
+        equipment_id,
+        latest_record['temp'],
+        latest_record['vibration'],
+        latest_record['pressure']
+    )
+    
+    return analysis
 
 @app.get("/health")
 def health_check():
