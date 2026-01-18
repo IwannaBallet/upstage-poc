@@ -5,7 +5,7 @@ A comprehensive Proof-of-Concept demonstrating **Upstage Solar LLM** capabilitie
 ## 🎯 Key Achievements
 
 - ✅ **100% accuracy** on equipment failure diagnosis using Solar LLM
-- ✅ **60 seconds** vs 2-4 hours diagnosis time (98% faster)
+- ✅ **60 seconds** vs 2-4 hours diagnosis time (99%+ faster)
 - ✅ **$0.0005** per diagnosis vs $1,000-5,000 manual cost (99.95% cheaper)
 - ✅ **Full-stack implementation**: FastAPI backend + Streamlit frontend + PostgreSQL
 - ✅ **Comprehensive business case**: $5-10B TAM in Korea, $8.1M annual savings per facility

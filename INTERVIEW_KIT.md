@@ -17,7 +17,7 @@ This PoC is **complete and impressive**. Here's how to present it:
 
 ### Key Numbers
 - **100% accuracy** on failure diagnosis
-- **60 seconds** vs 2-4 hours (98% faster)
+- **60 seconds** vs 2-4 hours (99%+ faster)
 - **$0.0005** per diagnosis vs $1,000-5,000 (99.95% cheaper)
 - **Payback in <1 day** for typical manufacturers
 - **675x ROI** for mid-size facilities

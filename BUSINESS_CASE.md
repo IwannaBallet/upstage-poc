@@ -35,7 +35,7 @@ This PoC demonstrates Solar LLM's capability to:
 
 | Metric | Before | After | Savings |
 |--------|--------|-------|---------|
-| **Diagnosis Time** | 2-4 hours | 1 minute | 97% faster |
+| **Diagnosis Time** | 2-4 hours | 1 minute | 99%+ faster |
 | **Cost per Diagnosis** | $1,000-5,000 | $0.05 | 99% cheaper |
 | **MTTR** | 4-6 hours | <1 hour | 75% reduction |
 | **Preventive Accuracy** | 60% (manual) | 100% (Solar LLM) | 40% improvement |

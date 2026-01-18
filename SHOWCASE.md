@@ -15,7 +15,7 @@ This repository demonstrates a **complete proof-of-concept** showcasing Upstage 
 
 ### Performance Metrics
 - **Accuracy**: 100% on validation dataset
-- **Speed**: 60 seconds vs 2-4 hours (98% faster)
+- **Speed**: 60 seconds vs 2-4 hours (99%+ faster)
 - **Cost**: $0.0005 per diagnosis vs $1,000-5,000 manual (99.95% cheaper)
 - **ROI**: 675x return on investment for mid-size facilities
 
