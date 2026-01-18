@@ -1,8 +1,8 @@
-# 📊 AskUp PoC - Business Case Analysis
+# 📊 Solar LLM PoC - Business Case Analysis
 
 ## Executive Summary
 
-**AskUp** uses Upstage Solar LLM to diagnose manufacturing equipment failures in real-time, reducing mean time to repair (MTTR) and preventing costly downtime.
+This PoC demonstrates how **Upstage Solar LLM** can be used to diagnose manufacturing equipment failures in real-time, reducing mean time to repair (MTTR) and preventing costly downtime.
 
 ---
 
@@ -21,13 +21,15 @@ Equipment failure detected → Manual inspection → Phone expert → 4 hours �
 
 ---
 
-## 💡 AskUp Solution
+## 💡 Solar LLM Solution
 
 ### How It Works
 ```
 Sensor Alert → Solar LLM Analysis → Instant Diagnosis → Preventive Action
 (seconds)                           (1 min)           (saved hours)
 ```
+
+This PoC demonstrates Solar LLM's capability to:
 
 ### Key Benefits
 

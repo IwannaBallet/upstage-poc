@@ -1,9 +1,9 @@
-# 🏭 AskUp PoC - Complete File Structure Explanation
+# 🏭 Solar LLM PoC - Complete File Structure Explanation
 
 ## Project Overview
-**AskUp** is a Proof-of-Concept (PoC) system for **industrial equipment failure prediction and diagnosis** using a combination of:
+This Proof-of-Concept (PoC) demonstrates **Upstage Solar LLM** capabilities in **industrial equipment failure prediction and diagnosis** using a combination of:
 - **Machine Learning** (XGBoost) for failure detection
-- **Large Language Models** (Upstage Solar) for root cause analysis
+- **Upstage Solar LLM** for root cause analysis and diagnosis
 - **REST API** (FastAPI) for backend services
 - **Web Dashboard** (Streamlit) for visualization
 
@@ -12,7 +12,7 @@
 ## 📁 Directory Structure
 
 ```
-askup-poc/
+upstage-poc/
 ├── 📄 poc_solar_demo.py          # ⭐ Main PoC Script - Demonstrates Solar LLM effectiveness
 ├── 📄 README.md                  # Project documentation
 ├── 📄 requirements.txt           # Python dependencies

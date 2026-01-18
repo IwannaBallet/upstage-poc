@@ -6,10 +6,10 @@ import json
 import io
 
 # Setup
-st.set_page_config(page_title="AskUp Factory Monitor", layout="wide")
+st.set_page_config(page_title="Solar LLM Factory Monitor", layout="wide")
 API_URL = "http://localhost:8000"
 
-st.title("🏭 AskUp Smart Factory Dashboard")
+st.title("🏭 Solar LLM Smart Factory Dashboard")
 
 # Sidebar
 st.sidebar.header("Control Panel")

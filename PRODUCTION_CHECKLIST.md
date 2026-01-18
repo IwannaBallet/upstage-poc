@@ -1,4 +1,4 @@
-# ✅ AskUp Production Readiness Checklist
+# ✅ Solar LLM PoC - Production Readiness Checklist
 
 ## 🎯 Product Readiness
 

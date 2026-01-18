@@ -1,6 +1,6 @@
-# AskUp PoC - Manufacturing Equipment Failure Diagnosis with Solar LLM
+# Solar LLM PoC - Manufacturing Equipment Failure Diagnosis
 
-A comprehensive Proof-of-Concept demonstrating how **Upstage Solar LLM** can revolutionize manufacturing equipment failure diagnosis, reducing diagnosis time from hours to seconds while achieving **100% accuracy** on validation data.
+A comprehensive Proof-of-Concept demonstrating **Upstage Solar LLM** capabilities in manufacturing equipment failure diagnosis. This project showcases how Solar LLM can revolutionize industrial maintenance, reducing diagnosis time from hours to seconds while achieving **100% accuracy** on validation data.
 
 ## 🎯 Key Achievements
 
@@ -84,9 +84,10 @@ See why Solar LLM outperforms GPT-4 and Claude 3 for Korean manufacturing use ca
 ## 🎯 Why This Matters
 
 This PoC demonstrates:
-- **Technical Depth**: Full-stack implementation with ML, LLM, and web technologies
-- **Business Acumen**: Complete ROI analysis and go-to-market strategy
-- **Solar LLM Expertise**: Deep understanding of Upstage's technology and competitive advantages
-- **Market Understanding**: Focus on Korean manufacturing with $5-10B TAM
+- **Solar LLM Integration**: Real-world implementation of Upstage Solar LLM API
+- **Technical Depth**: Full-stack application with ML, LLM, and web technologies
+- **Business Analysis**: Complete ROI calculations and competitive comparison
+- **Use Case Validation**: 100% accuracy on manufacturing equipment failure diagnosis
+- **Cost Efficiency**: Demonstrates Solar LLM's 100x cost advantage over GPT-4
 
-Perfect for showcasing capabilities in **AI business development** and **enterprise LLM applications**.
+Perfect for showcasing **Solar LLM capabilities** in enterprise applications and **AI business development**.

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-AskUp PoC - Solar LLM API Evaluation
-======================================
-This script demonstrates the Solar LLM API's capability to analyze
+Solar LLM PoC - Manufacturing Equipment Failure Diagnosis
+==========================================================
+This script demonstrates Upstage Solar LLM API's capability to analyze
 industrial equipment sensor data and provide failure diagnostics.
 """
 
@@ -47,7 +47,7 @@ def load_sample_data():
 def print_header():
     """Print PoC header"""
     print("\n" + "="*70)
-    print("🏭 AskUp PoC - Solar LLM API Evaluation")
+    print("🏭 Solar LLM PoC - Manufacturing Equipment Failure Diagnosis")
     print("="*70)
     print("Purpose: Test if Solar LLM API is suitable for equipment failure diagnosis")
     print("="*70 + "\n")

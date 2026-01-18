@@ -5,7 +5,7 @@ import io
 from datetime import datetime
 from typing import List
 
-app = FastAPI(title="AskUp PoC API")
+app = FastAPI(title="Solar LLM PoC API")
 
 # Add CORS support
 app.add_middleware(

@@ -1,19 +1,19 @@
-# 📋 AskUp Interview Preparation Kit
+# 📋 Solar LLM PoC - Interview Preparation Kit
 
-Your PoC is **complete and impressive**. Here's how to present it:
+This PoC is **complete and impressive**. Here's how to present it:
 
 ---
 
 ## 🎤 Interview Talking Points (2-minute pitch)
 
 ### Opening
-*"We've built AskUp, a proof-of-concept that uses Upstage Solar LLM to diagnose manufacturing equipment failures in real-time."*
+*"I've built a proof-of-concept demonstrating Upstage Solar LLM's capabilities in diagnosing manufacturing equipment failures in real-time."*
 
 ### The Problem
 *"Manufacturing facilities lose $5,000-50,000 per hour when equipment fails. Currently, diagnosis takes 2-4 hours and costs $1,000-5,000 per incident because it requires expert consultation."*
 
 ### The Solution
-*"AskUp analyzes sensor data with Solar LLM and provides diagnosis in 60 seconds. We validated this with 100% accuracy on our PoC."*
+*"This PoC uses Solar LLM to analyze sensor data and provide diagnosis in 60 seconds. I validated this with 100% accuracy, demonstrating Solar LLM's effectiveness in manufacturing use cases."*
 
 ### Key Numbers
 - **100% accuracy** on failure diagnosis

@@ -1,8 +1,8 @@
-# 🎯 AskUp PoC - Showcase for Upstage AI Business Development Role
+# 🎯 Solar LLM PoC - Showcase for Upstage AI Business Development Role
 
 ## Executive Summary
 
-This repository demonstrates a **complete proof-of-concept** for using Upstage Solar LLM in manufacturing equipment failure diagnosis. The project showcases:
+This repository demonstrates a **complete proof-of-concept** showcasing Upstage Solar LLM's capabilities in manufacturing equipment failure diagnosis. The project highlights:
 
 1. **Technical Implementation**: Full-stack application with ML, LLM integration, and web dashboard
 2. **Business Analysis**: Comprehensive ROI calculations, market sizing, and go-to-market strategy
@@ -56,15 +56,15 @@ This repository demonstrates a **complete proof-of-concept** for using Upstage S
 ## 📁 Repository Structure
 
 ```
-askup-poc/
-├── poc_solar_demo.py          # Main PoC demonstration
-├── llm_comparison.py          # Competitive analysis
+upstage-poc/
+├── poc_solar_demo.py          # Main Solar LLM demonstration
+├── llm_comparison.py          # Solar vs GPT-4/Claude comparison
 ├── cost_calculator.py         # ROI calculations
-├── BUSINESS_CASE.md           # Complete business analysis
+├── BUSINESS_CASE.md           # Business analysis & use case
 ├── ARCHITECTURE.md            # Technical architecture
 ├── INTERVIEW_KIT.md           # Interview preparation
 ├── PRODUCTION_CHECKLIST.md    # Path to production
-├── backend/                   # FastAPI backend
+├── backend/                   # FastAPI backend with Solar integration
 ├── frontend/                  # Streamlit dashboard
 └── data/                      # Sample equipment data
 ```

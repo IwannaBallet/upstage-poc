@@ -25,7 +25,7 @@ from backend.solar_client import analyze_failure
 # Create tables
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="AskUp PoC API")
+app = FastAPI(title="Solar LLM PoC API")
 
 def get_db():
     db = SessionLocal()
