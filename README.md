@@ -10,6 +10,23 @@ A comprehensive Proof-of-Concept demonstrating **Upstage Solar LLM** capabilitie
 - ✅ **Full-stack implementation**: FastAPI backend + Streamlit frontend + PostgreSQL
 - ✅ **Comprehensive business case**: $5-10B TAM in Korea, $8.1M annual savings per facility
 
+### 💰 Cost Breakdown Explanation
+
+**Solar LLM Cost ($0.000165 per diagnosis):**
+- Based on Solar Pro 2 official pricing: Input $0.15/MTok, Output $0.6/MTok
+- Typical diagnosis: ~300 input tokens + ~200 output tokens
+- Calculation: (300×$0.00015) + (200×$0.0006) = **$0.000165**
+
+**Manual Diagnosis Cost ($1,000-$5,000):**
+- Expert consultant fees per incident
+- Downtime costs (2-4 hours at $5,000-$50,000/hour)
+- Labor and inspection costs
+
+**Savings Calculation:**
+- vs $1,000: ($1,000 - $0.000165) / $1,000 = **99.9835%** savings
+- vs $5,000: ($5,000 - $0.000165) / $5,000 = **99.9967%** savings
+- **"99.98%+ cheaper"** covers the entire $1K-$5K range
+
 ## 📚 Documentation
 
 - **[BUSINESS_CASE.md](BUSINESS_CASE.md)** - Complete ROI analysis, market sizing, go-to-market strategy
