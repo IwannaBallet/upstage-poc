@@ -117,7 +117,7 @@ Why Solar LLM matters:
 |---------|-----------|-------|---------|
 | **Korean Support** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 | **Manufacturing Domain** | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| **Cost per API Call** | $0.00003 | $0.003 | $0.001 |
+| **Cost per API Call** | $0.000165 | $0.003 | $0.001 |
 | **Response Time** | <1 sec | 2-3 sec | 1-2 sec |
 | **Local Deployment** | ✅ Available | ❌ | ❌ |
 

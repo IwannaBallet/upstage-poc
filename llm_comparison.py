@@ -12,7 +12,10 @@ from datetime import datetime
 # Comparison data
 MODELS = {
     "Solar LLM (Upstage)": {
-        "cost_per_1k_tokens": 0.003,
+        # Solar Pro 2 pricing (official): Input $0.15/MTok, Output $0.6/MTok
+        # Source: https://platform.upstage.ai/
+        # Blended average for typical 60/40 input/output ratio: ~$0.00033 per 1K tokens
+        "cost_per_1k_tokens": 0.00033,  # Blended: input ($0.00015/1K) + output ($0.0006/1K)
         "response_time_ms": 800,
         "korean_support": "Native",
         "accuracy_score": 100,

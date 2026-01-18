@@ -16,12 +16,12 @@ This repository demonstrates a **complete proof-of-concept** showcasing Upstage 
 ### Performance Metrics
 - **Accuracy**: 100% on validation dataset
 - **Speed**: 60 seconds vs 2-4 hours (99%+ faster)
-- **Cost**: $0.0005 per diagnosis vs $1,000-5,000 manual (99.95% cheaper)
+- **Cost**: $0.000165 per diagnosis vs $1,000-5,000 manual (99.98%+ cheaper)
 - **ROI**: 675x return on investment for mid-size facilities
 
 ### Competitive Advantages Demonstrated
-- **100x cheaper** than GPT-4 ($0.0003 vs $0.03 per 1K tokens)
-- **33x cheaper** than Claude 3 ($0.0003 vs $0.01 per 1K tokens)
+- **91x cheaper** than GPT-4 ($0.00033 vs $0.03 per 1K tokens)
+- **30x cheaper** than Claude 3 ($0.00033 vs $0.01 per 1K tokens)
 - **Native Korean support** critical for manufacturing use cases
 - **Local deployment option** for enterprise security requirements
 - **Manufacturing domain optimization** vs general-purpose LLMs

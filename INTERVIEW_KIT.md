@@ -18,7 +18,7 @@ This PoC is **complete and impressive**. Here's how to present it:
 ### Key Numbers
 - **100% accuracy** on failure diagnosis
 - **60 seconds** vs 2-4 hours (99%+ faster)
-- **$0.0005** per diagnosis vs $1,000-5,000 (99.95% cheaper)
+- **$0.000165** per diagnosis vs $1,000-5,000 (99.98%+ cheaper)
 - **Payback in <1 day** for typical manufacturers
 - **675x ROI** for mid-size facilities
 
@@ -99,7 +99,7 @@ python3 cost_calculator.py
 |--------|-------|-------|
 | **PoC Accuracy** | 100% | On sample data (5 equipment, 5 observations) |
 | **Diagnosis Speed** | 1 min | vs. 2-4 hours manual |
-| **Cost per Diagnosis** | $0.0005 | vs. $1,000-5,000 manual |
+| **Cost per Diagnosis** | $0.000165 | vs. $1,000-5,000 manual |
 | **ROI** | 675x | 12-month payback |
 | **TAM** | $5-10B | Korea; $100B+ Asia |
 | **Time to Revenue** | <1 month | After pilot validation |

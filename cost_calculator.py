@@ -8,7 +8,7 @@ Calculate API costs at scale for Solar LLM-based equipment diagnosis.
 import json
 from datetime import datetime
 
-def calculate_costs(num_equipment, failures_per_month, api_cost_per_call=0.0005):
+def calculate_costs(num_equipment, failures_per_month, api_cost_per_call=0.000165):
     """
     Calculate monthly and annual costs for AskUp implementation
     
