@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-01-16T15:35:46.790902",
+  "scenarios": [
+    {
+      "name": "Small Factory",
+      "equipment": 20,
+      "failures_per_month": 1
+    },
+    {
+      "name": "Medium Factory",
+      "equipment": 100,
+      "failures_per_month": 2
+    },
+    {
+      "name": "Large Factory",
+      "equipment": 500,
+      "failures_per_month": 1.5
+    },
+    {
+      "name": "Enterprise (Multi-site)",
+      "equipment": 2000,
+      "failures_per_month": 1
+    }
+  ],
+  "results": [
+    {
+      "monthly_diagnoses": 20,
+      "cost_per_diagnosis": 75.0005,
+      "monthly_cost": 1500.01,
+      "annual_cost": 18000.12,
+      "downtime_loss_before": 800000,
+      "downtime_loss_after": 200000.0,
+      "prevented_failures_monthly": 4.0,
+      "prevented_loss_monthly": 160000.0,
+      "monthly_benefit": 760000.0,
+      "annual_benefit": 9120000.0,
+      "net_benefit_annual": 9101999.88,
+      "roi_percentage": 50566.3,
+      "payback_days": 0.7
+    },
+    {
+      "monthly_diagnoses": 200,
+      "cost_per_diagnosis": 30.0005,
+      "monthly_cost": 6000.1,
+      "annual_cost": 72001.2,
+      "downtime_loss_before": 8000000,
+      "downtime_loss_after": 2000000.0,
+      "prevented_failures_monthly": 40.0,
+      "prevented_loss_monthly": 1600000.0,
+      "monthly_benefit": 7600000.0,
+      "annual_benefit": 91200000.0,
+      "net_benefit_annual": 91127998.8,
+      "roi_percentage": 126564.6,
+      "payback_days": 0.3
+    },
+    {
+      "monthly_diagnoses": 750.0,
+      "cost_per_diagnosis": 8.0005,
+      "monthly_cost": 6000.38,
+      "annual_cost": 72004.5,
+      "downtime_loss_before": 30000000.0,
+      "downtime_loss_after": 7500000.0,
+      "prevented_failures_monthly": 150.0,
+      "prevented_loss_monthly": 6000000.0,
+      "monthly_benefit": 28500000.0,
+      "annual_benefit": 342000000.0,
+      "net_benefit_annual": 341927995.5,
+      "roi_percentage": 474870.3,
+      "payback_days": 0.1
+    },
+    {
+      "monthly_diagnoses": 2000,
+      "cost_per_diagnosis": 5.5005,
+      "monthly_cost": 11001.0,
+      "annual_cost": 132012.0,
+      "downtime_loss_before": 80000000,
+      "downtime_loss_after": 20000000.0,
+      "prevented_failures_monthly": 400.0,
+      "prevented_loss_monthly": 16000000.0,
+      "monthly_benefit": 76000000.0,
+      "annual_benefit": 912000000.0,
+      "net_benefit_annual": 911867988.0,
+      "roi_percentage": 690746.3,
+      "payback_days": 0.1
+    }
+  ],
+  "key_findings": {
+    "payback_period_days": 0.1,
+    "avg_roi": 335686.9,
+    "cost_per_diagnosis": 5.5005
+  }
+}

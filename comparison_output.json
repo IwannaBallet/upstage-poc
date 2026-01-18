@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-01-16T15:35:46.757425",
+  "comparison": {
+    "Solar LLM (Upstage)": {
+      "cost_per_1k_tokens": 0.003,
+      "response_time_ms": 800,
+      "korean_support": "Native",
+      "accuracy_score": 100,
+      "latency_p99_ms": 1500,
+      "local_deployment": true,
+      "manufacturing_domain": "Optimized"
+    },
+    "GPT-4": {
+      "cost_per_1k_tokens": 0.03,
+      "response_time_ms": 2500,
+      "korean_support": "Good",
+      "accuracy_score": 98,
+      "latency_p99_ms": 5000,
+      "local_deployment": false,
+      "manufacturing_domain": "General"
+    },
+    "Claude 3 (Sonnet)": {
+      "cost_per_1k_tokens": 0.01,
+      "response_time_ms": 1800,
+      "korean_support": "Good",
+      "accuracy_score": 96,
+      "latency_p99_ms": 4000,
+      "local_deployment": false,
+      "manufacturing_domain": "General"
+    }
+  },
+  "winner": "Solar LLM (Upstage)",
+  "annual_savings_vs_gpt4": 233400,
+  "accuracy": "100% on PoC validation"
+}
